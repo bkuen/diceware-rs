@@ -1,0 +1,11 @@
+[package]
+name = "diceware-rs"
+version = "0.1.0"
+authors = ["Benjamin Kuen <info@benjamin-kuen.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = { version = "0.11.4", features = ["blocking"] }
+rand = "0.8.4"
